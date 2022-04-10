@@ -1,0 +1,38 @@
+.menu{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Fortuner-static.jpeg);
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+}
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    background-color: transparent;
+    overflow: hidden;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    box-sizing: border-box;
+    display: inline-block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+ .menu ul li a:hover{
+     background-color: green;
+     }
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+    float: none;
+}
+.dropdown{
+    background-color: black;
+}
+
